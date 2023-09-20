@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color:#474E68 !important;
+  font-family: sans-serif;
+  /**background-image: url(2270687.jpg);*/
+}
+h1{
+  display: block;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: whitesmoke !important;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 2px black;
+  color:whitesmoke !important;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 2px black !important;
+  display: flex;
+  font-size: 10px;
+  color: whitesmoke !important;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 8rem;
+      -webkit-appearance: none;
+      background-color: whitesmoke;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: whitesmoke;
+      box-shadow: -80px 0 0 80px #BADDD2;
+    }
+
+}
+/** FF*/
+/**input[type="range"]::-moz-range-progress {
+  background-color: whitesmoke;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #9a905d;
+}
+/* IE*/
+/**input[type="range"]::-ms-fill-lower {
+  background-color: whitesmoke;
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: #9a905d;
+}*/
+
+.form-range{
+  width:15% !important;
+}
+.toptop{
+  /**background-image: url(forpro.jpg);*/
+}
+.rest{
+  margin: 0;
+  padding: 0;
+
+}
+.heading{
+  text-align: center;
+}
+.top{
+
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  margin-top: 0,30px,30px,30px;
+
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 10px;
+}
+
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item {
+    background: #FFFEB1;
+    border: 1px solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+.space{
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+
+#start{
+  height: 30px;
+  width: 60px ;
+  margin-right:15px;
+  cursor: pointer;
+  background-color: #50577A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+#merge{
+  height: 30px;
+  width: 60px;
+  margin-right:15px;
+  cursor: pointer;
+ background-color: #50577A;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+
+#quick{
+  height: 30px;
+  width: 60px;
+  margin-right:15px;
+  cursor: pointer;
+  background-color: #50577A;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+
+#selection{
+  height: 30px;
+  width: 66px;
+  margin-right:15px;
+  cursor: pointer;
+  background-color: #50577A;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+
+#insertion{
+  height: 30px;
+  width: 66px;
+  margin-right:15px;
+  cursor: pointer;
+  background-color: #50577A;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+
+#quick:hover{
+  background-color: #FFFEB1;
+  color:#B1B2FF ;
+}
+
+#selection:hover{
+  background-color: #FFFEB1;
+  color:#B1B2FF ;
+}
+
+#insertion:hover{
+  background-color: #FFFEB1;
+  color:#B1B2FF ;
+}
+
+#reset{
+  height: 30px;
+  width: 70px;
+  margin-right:15px;
+  cursor: pointer;
+  background-color: #50577A;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+  border-color:whitesmoke;
+}
+#start:hover{
+
+  background-color: #FFFEB1;
+  color:#B1B2FF ;
+}
+#merge:hover{
+
+  background-color: #FFFEB1;
+  color:#B1B2FF ;
+}
+#reset:hover{
+  background-color: #DFFFEB;
+  color: #B1B2FF;
+}
